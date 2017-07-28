@@ -15,7 +15,7 @@ eureka:
 ---
 
 spring:
-  profiles: docker
+  profiles: dockerdocker run -d --name auth-server -p 8899:8899
 eureka:
   instance:
     hostname: docker
